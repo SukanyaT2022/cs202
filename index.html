@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+
+<body>
+    <div id="main"></div>
+</body>
+
+
+
+<script>
+    const fruits = [
+        { id: 101, name: "Toothgel", price: `75 USD`, desc: "A very nice day" },
+        { id: 102, name: "Ham", price: `100 USD`, desc: "A very nice day" },
+        {}
+    ]
+    /*
+        const person = {
+            name: [name, age, 34, were],
+            age: 92,
+            gender: "female"
+        }
+      */
+    document.getElementById("main").innerHTML = fruits.map((name) => name.name
+    )
+
+</script>
+
+</html>
